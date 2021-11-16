@@ -1,0 +1,73 @@
+.about-container {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(
+    rgba(10, 10, 175, 0.37),
+    rgba(31, 155, 177, 0.37),
+    rgba(133, 34, 136, 0.637)
+  );
+  padding: 1rem;
+  text-align: center;
+}
+img {
+  width: 500px;
+  height: 290px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 10px;
+  border-radius: 5px;
+  background-position: center;
+
+  box-shadow: 10px 10px 5px rgba(114, 113, 113, 0.308);
+  -moz-box-shadow: 10px 10px 5px rgba(114, 113, 113, 0.308);
+  -webkit-box-shadow: 10px 10px 5px rgba(114, 113, 113, 0.308);
+  -khtml-box-shadow: 10px 10px 5px rgba(114, 113, 113, 0.308);
+}
+.image-one {
+  background-image: url("./images/legs.jpg");
+}
+.image-two {
+  background-image: url("./images/neck.jpg");
+}
+.image-three {
+  background-image: url("./images/Physiotherapy.jpg");
+}
+.about-paragraph-one {
+  width: 460px;
+  word-spacing: 5px;
+  position: absolute;
+  left: 16%;
+  top: 130%;
+  font-size: 15px;
+  color: rgb(73, 106, 112);
+  display: inline;
+}
+.about-paragraph-two {
+  width: 460px;
+  word-spacing: 5px;
+  position: absolute;
+  left: 42%;
+  top: 130%;
+  font-size: 15px;
+  color: rgb(73, 106, 112);
+  display: inline;
+}
+.about-paragraph-three {
+  width: 460px;
+  word-spacing: 5px;
+  position: absolute;
+  left: 70%;
+  top: 130%;
+  font-size: 15px;
+  color: rgb(73, 106, 112);
+  display: inline;
+}
+.image-p-container {
+  padding: 2rem;
+  border-radius: 5px;
+  width: 90%;
+  margin-left: 164px;
+  background-color: rgba(244, 222, 245, 0.15);
+  backdrop-filter: blur(5px);
+  height: 500px;
+}

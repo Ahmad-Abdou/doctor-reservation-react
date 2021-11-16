@@ -1,0 +1,67 @@
+.main-container {
+  background: linear-gradient(#e66465, #9198e5);
+  width: 100%;
+  height: 100vh;
+}
+
+.sign-in-container {
+  background-color: rgb(255, 255, 255);
+  width: 30% !important;
+  padding: 1.5rem;
+  margin: 0 auto;
+  position: absolute;
+  left: 37%;
+  top: 25%;
+  height: 50vh;
+  font-size: 20px;
+  border-radius: 5px;
+}
+.sign-in-submit-btn {
+  background: linear-gradient(rgb(212, 141, 141), rgb(124, 7, 148));
+  padding: 1rem;
+  width: 190px;
+  position: absolute;
+  bottom: 20%;
+  right: 35%;
+  font-size: 20px;
+  border: 1px solid white;
+}
+.sign-in-submit-btn:hover {
+  background: linear-gradient(rgb(248, 167, 167), rgb(185, 12, 219));
+  border: 1px solid white;
+}
+
+.sign-in-field {
+  padding: 1rem;
+  color: rgb(28, 28, 29);
+  background-color: rgb(252, 252, 252);
+  margin: 1rem 0;
+  font-size: 25px;
+}
+
+.sign-in-field-icon {
+  position: absolute;
+  right: 10%;
+  margin-top: -70px;
+  display: block;
+  font-size: 35px;
+  color: rgb(230, 132, 161);
+}
+.forgot-password-form {
+  font-size: 15px;
+  color: rgb(230, 132, 161);
+}
+.sign-up-form {
+  position: absolute;
+  bottom: 40px;
+  right: 45.5%;
+  text-decoration: none;
+  cursor: pointer;
+  color: rgb(97, 93, 93);
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 18px;
+}
+.sign-up-form:hover {
+  color: rgb(230, 132, 161);
+}

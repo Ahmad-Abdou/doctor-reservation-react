@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+.dashboard-container {
+  background: linear-gradient(
+    rgba(31, 155, 177, 0.37),
+    rgba(133, 34, 136, 0.637),
+    rgba(10, 10, 175, 0.37)
+  );
+  height: 100vh;
+}
+.dates-dashboard {
+  padding: 2rem;
+  width: 60%;
+  height: 60vh;
+  position: absolute;
+  left: 15%;
+  top: 35%;
+  background: linear-gradient(
+    rgba(236, 227, 227, 0.349),
+    rgba(245, 241, 241, 0.486)
+  );
+  border-radius: 5px;
+  text-align: center;
+  max-height: 100%;
+  overflow: auto;
+}
+.dashboard-user-field {
+  display: inline;
+  word-spacing: 3px;
+  margin: 1rem;
+  padding: 1rem;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(53, 46, 46);
+}
+.edit-icon {
+  color: rgb(31, 153, 31);
+  font-size: 32px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.delete-icon {
+  color: rgb(231, 49, 49);
+  font-size: 32px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.dashboard-adding-dates {
+  padding: 2rem;
+  position: absolute;
+  left: 15%;
+  top: 10%;
+  width: 60%;
+  height: 20vh;
+  background: linear-gradient(
+    rgba(236, 227, 227, 0.349),
+    rgba(245, 241, 241, 0.486)
+  );
+  border-radius: 5px;
+  text-align: center;
+}
+.dashboard-adding-dates-field {
+  padding: 1rem;
+  border-radius: 5px;
+  border: none;
+  width: 50%;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.dashboard-adding-time-field {
+  padding: 1rem;
+  border-radius: 5px;
+  border: none;
+  width: 50%;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.dashboard-adding-dates-btn {
+  padding: 1rem;
+  border: none;
+  border-radius: 5px;
+  margin-left: 20px;
+  background: linear-gradient(rgb(201, 140, 150), rgb(201, 140, 150));
+  color: wheat;
+  text-transform: capitalize;
+  font-size: 20px;
+}
+.date-time-available-container {
+  position: absolute;
+  left: 77%;
+  top: 10%;
+  width: 22%;
+  height: 85vh;
+  background: linear-gradient(
+    rgba(236, 227, 227, 0.349),
+    rgba(245, 241, 241, 0.486)
+  );
+  border-radius: 5px;
+  text-align: center;
+  max-height: 100%;
+  overflow: auto;
+}
+.dashboard-dates-title {
+  color: wheat;
+  background: linear-gradient(rgb(201, 140, 150), rgb(201, 140, 150));
+  padding: 1rem;
+  text-transform: capitalize;
+}
+.dashboard-date-printed {
+  margin: 1rem;
+}
+.dashboard-time-printed {
+  color: rgb(189, 90, 90);
+  cursor: pointer;
+}
+.dashboard-time-icon {
+  position: absolute;
+  right: 392px;
+  font-size: 26px;
+  top: 120px;
+}

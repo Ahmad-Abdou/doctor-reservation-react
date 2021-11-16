@@ -1,0 +1,59 @@
+.home-container {
+  background: linear-gradient(
+    rgba(31, 155, 177, 0.37),
+    rgba(133, 34, 136, 0.637),
+    rgba(10, 10, 175, 0.37)
+  );
+  height: 90vh;
+}
+.home-glassy-container {
+  background-color: rgba(255, 255, 255, 0.089);
+  height: 60vh;
+  padding: 1rem;
+  width: 940px;
+}
+.home-inside-container {
+  width: 50% !important;
+  margin: 0 auto;
+  word-spacing: 4px;
+  color: rgb(14, 14, 14);
+  background: linear-gradient(
+    rgba(240, 234, 234, 0.486),
+    rgba(212, 206, 206, 0.5)
+  );
+  height: 60vh;
+  border-radius: 5px;
+  padding: 2rem;
+  text-align: center;
+}
+.home-title {
+  color: rgb(86, 105, 109);
+  font-weight: 700;
+}
+.home-paragraph {
+  color: rgb(73, 106, 112);
+  width: 90%;
+  margin-left: 30px;
+}
+.booking-time-btn {
+  padding: 1rem;
+  border-radius: 5px;
+  border: none;
+  background: linear-gradient(rgb(86, 168, 223), rgb(177, 98, 197));
+  color: rgb(230, 230, 230);
+  font-size: 20px;
+  position: absolute;
+  top: 450px;
+  left: 835px;
+  font-weight: 600;
+}
+.booking-time-btn:hover {
+  background: linear-gradient(rgb(122, 172, 206), rgb(183, 118, 199));
+  color: rgb(255, 255, 255);
+}
+.carousel-item {
+  padding: 5rem;
+  margin-top: 20px;
+  border-radius: 5px;
+  font-weight: 500;
+}
